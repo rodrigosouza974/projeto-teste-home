@@ -9,7 +9,7 @@ export const Container = styled.main`
     display: flex;
     flex-direction:row;
     justify-content: space-between;
-    aligner-itens:center;
+    align-items:center;
 `
 
 export const Title = styled.h2`

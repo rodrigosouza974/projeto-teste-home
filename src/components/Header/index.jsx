@@ -7,7 +7,8 @@ import { BuscarInputContainer,
     Menu,
     MenuRight,
     Row,
-    Wrapper 
+    Wrapper ,
+    UserPicture 
 } from "./styles"
 
 const Header = () => {
@@ -15,7 +16,7 @@ const Header = () => {
         <Wrapper>
             <Container>
                 <Row>
-                    <img src ={logo} alt= "logo generico"/>
+                    <UserPicture  src ={logo} alt= "logo generico"/>
                     <BuscarInputContainer>
                         <Input placeholder ='buscar...'/>
                     </BuscarInputContainer>

@@ -7,7 +7,7 @@ export const Container = styled.div`
 
     display: flex;
     justify-content: space-between;
-    aligner-itens: center;
+    align-items: center;
     margin: 0 auto;
 
 `
@@ -15,13 +15,13 @@ export const Container = styled.div`
 export const Row = styled.div`
     display: flex;
     flex-direction: row;
-    aligner-itens: center;
+    align-items: center;
 `
 
 export const Column = styled.div`
     display: flex;
     flex-direction: Column;
-    aligner-itens: center;
+    align-items: center;
 `
 
 export const Wrapper = styled.div`
@@ -30,7 +30,7 @@ export const Wrapper = styled.div`
     height: 47px;
     display: flex;
     justify-content: center;
-    aligner-itens: center;
+    align-items: center;
 `
 export const BuscarInputContainer = styled.div`
     width: 175px;
@@ -47,17 +47,18 @@ export const BuscarInputContainer = styled.div`
 `
 export const Menu = styled.a`
     font-family: 'Open Sans';
-    font-size: normal;
+    font-size: 20px;
     font-weight: 12px;
     line-height: 25px;
     color: #FFFFFF;
     margin-right: 12px;
     text-decoration: none;
+    
 `
 export const MenuRight = styled.a`
     font-family: 'Open Sans';
     font-style: normal;
-    font-size: 12px;
+    font-size: 20px;
     line-height: 25px;
     color: #FFFFFF;
     margin-right: 12px;
