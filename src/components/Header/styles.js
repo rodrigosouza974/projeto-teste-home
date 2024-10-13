@@ -47,8 +47,8 @@ export const BuscarInputContainer = styled.div`
 `
 export const Menu = styled.a`
     font-family: 'Open Sans';
-    font-size: 20px;
-    font-weight: 12px;
+    font-size: 18px;
+    font-weight: 18px;
     line-height: 25px;
     color: #FFFFFF;
     margin-right: 12px;

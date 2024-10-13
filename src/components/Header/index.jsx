@@ -11,22 +11,31 @@ import { BuscarInputContainer,
     UserPicture 
 } from "./styles"
 
-const Header = () => {
+const Header = ({autenticado}) => {
     return(
         <Wrapper>
             <Container>
                 <Row>
                     <UserPicture  src ={logo} alt= "logo generico"/>
-                    <BuscarInputContainer>
+                    {autenticado ?(
+                        <>
+                        <BuscarInputContainer>
                         <Input placeholder ='buscar...'/>
-                    </BuscarInputContainer>
-                    <Menu>Live Code</Menu>
-                    <Menu>Global</Menu>
+                        </BuscarInputContainer>
+                        <Menu>Live Code</Menu>
+                        <Menu>Global</Menu>
+                        </>
+                        ): null}
                 </Row>
                 <Row>
+                {autenticado ?(
+                    <UserPicture src= "https://avatars.githubusercontent.com/u/124813706?v=4&size=64"/>
+                 ):( <>
                     <MenuRight href ="#">Home</MenuRight>
                     <Button title ="Entrar"/>
                     <Button  title ="Cadastrar" />
+                    </>
+                )}
                 </Row>
             </Container>
         </Wrapper>
