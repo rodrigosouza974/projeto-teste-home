@@ -14,6 +14,10 @@ export const Container = styled.main`
 export const Wrapper = styled.div`
     max-width: 300px;
 `
+export const ErrorText = styled.p`
+    font-size: 12px;
+    color: #FF0000;
+`
 export const Column = styled.div`
     flex: 1;
 `

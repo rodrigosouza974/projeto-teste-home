@@ -28,7 +28,7 @@ export const ButtonContainer = styled.button`
             left: -6px;
             width: calc(100% + 10px);
             height: calc(100% + 10px);
-            border-radius: 22px;  // Corrigido aqui
+            border-radius: 22px; 
         }
     `}
 `;
