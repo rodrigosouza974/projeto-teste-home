@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components';
+import { IButtoStyled } from './types';
 
-export const ButtonContainer = styled.button`
+export const ButtonContainer = styled.button<IButtoStyled>`
     background-color: #565656;
     color: #FFFF;
     padding: 2px 12px;
@@ -9,7 +10,7 @@ export const ButtonContainer = styled.button`
     width: 100%;
     position: relative;
 
-    ${({ variant }) => variant !== "primary" && css`
+    ${({ variant }) =>  variant !== "primary" && css`
         min-width: 167px; 
         height: 33px;
         background: #e4105d;

@@ -1,6 +1,5 @@
 import React from 'react'
 import {FiThumbsUp } from 'react-icons/fi';
-import banner2 from '../../assets/banner2.png'
 
 import { 
     CardContainer,
